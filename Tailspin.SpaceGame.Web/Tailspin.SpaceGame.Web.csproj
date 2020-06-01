@@ -12,4 +12,13 @@
   <ItemGroup>
     <Folder Include="wwwroot\images\avatars\" />
   </ItemGroup>
+
+  <ItemGroup>
+    <None Update="SampleData\JMeter2JUnit.xsl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="SampleData\LoadTest.jmx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
